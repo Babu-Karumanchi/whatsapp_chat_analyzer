@@ -1,0 +1,15 @@
+to make venv :
+conda create -p venv python==3.8 -y
+
+to activate :
+conda activate venv/
+
+to make requirements file
+pip freeze > requirements.txt
+
+to dectivate
+conda deactivate
+
+to remove venv 
+conda env remove --prefix E:\pr\venv
+conda env remove --prefix {path}
