@@ -7,6 +7,9 @@ conda activate venv/
 to make requirements file
 pip freeze > requirements.txt
 
+to install
+pip install -r requirements.txt
+
 to dectivate
 conda deactivate
 
